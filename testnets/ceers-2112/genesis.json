@@ -154,13 +154,13 @@
         "beta": "1.000000000000000000",
         "gamma": "0.000000000000000000",
         "delta": "0.000000000000000000",
-        "min_base_gas_price": "1.000000000000000000",
+        "min_base_gas_price": "0.000000000000000000",
         "min_learning_rate": "0.125000000000000000",
         "max_learning_rate": "0.125000000000000000",
         "max_block_utilization": "30000000",
         "window": "1",
         "fee_denom": "stake",
-        "enabled": true,
+        "enabled": false,
         "distribute_fees": false
       },
       "state": {
