@@ -11,7 +11,7 @@ about how galaxies evolve.
 |    Launch Date    |                        2024-11-26T08:15:00Z                        |
 | Milkywayd Version |                            `2.0.0-rc3`                             |
 |   Genesis File    |              [genesis.json](ceers-2112/genesis.json)               |
-|   Genesis Hash    | `2234312ee6486f9a3d8e6605bc3c2eef5aa1d043bfe19caea7698499691fba67` |
+|   Genesis Hash    | `d8732e38467b0124ed093895c107116cd1b55f321b1f16c9a0cef3f238907f6b` |
 
 ## Endpoints 🎯
 
