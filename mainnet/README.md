@@ -56,17 +56,17 @@ Inside the genesis file, there are some IBC denoms that have been pre-computed.
 The following IBC assets have been assumed to come from the Osmosis chain through channel `channel-0` and port
 `transfer`:
 
-**TIA**
-Osmosis denom: ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877
-MilkyWay denom: ibc/9ACD338BC3B488E0F50A54DE9A844C8326AF0739D917922A9CE04D42AD66017E
+**TIA**  
+Osmosis denom: `ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877`  
+MilkyWay denom: `ibc/9ACD338BC3B488E0F50A54DE9A844C8326AF0739D917922A9CE04D42AD66017E`
 
-**milkTIA**
-Osmosis denom: factory/osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA
-MilkyWay denom: ibc/16065EE5282C5217685C8F084FC44864C25C706AC37356B0D62811D50B96920F
+**milkTIA**  
+Osmosis denom: `factory/osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA`  
+MilkyWay denom: `ibc/16065EE5282C5217685C8F084FC44864C25C706AC37356B0D62811D50B96920F`
 
-**stTIA**
-Osmosis denom: ibc/698350B8A61D575025F3ED13E9AC9C0F45C89DEFE92F76D5838F1D3C1A7FF7C9
-MilkyWay denom: ibc/84FBEC4BBB48BD7CC534ED7518F339CCF6C45529DC00C7BFB8605C9EE7D68AFC
+**stTIA**  
+Osmosis denom: `ibc/698350B8A61D575025F3ED13E9AC9C0F45C89DEFE92F76D5838F1D3C1A7FF7C9`  
+MilkyWay denom: `ibc/84FBEC4BBB48BD7CC534ED7518F339CCF6C45529DC00C7BFB8605C9EE7D68AFC`
 
 Following the code that has been used to generate the above denoms:
 
@@ -104,11 +104,9 @@ for _, denom := range denoms {
 The following IBC assets have been assumed to come from the Osmosis chain through channel `channel-1` and port
 `transfer`:
 
-```go
-**TIA**
-Celestia denom: utia
-MilkyWay denom: ibc/F1183DB3D428313A6FD329DF18219F9D6B83257D07D292EA9EC1D877E89EC2B0
-```
+**TIA**  
+Celestia denom: `utia `
+MilkyWay denom: `ibc/F1183DB3D428313A6FD329DF18219F9D6B83257D07D292EA9EC1D877E89EC2B0`
 
 Following the code that has been used to generate the above denoms:
 
