@@ -410,8 +410,21 @@
     },
     "operators": {
       "params": {
-        "operator_registration_fee": [],
-        "deactivation_time": "259200s"
+        "operator_registration_fee": [
+          {
+            "amount": "1000000",
+            "denom": "ibc/9ACD338BC3B488E0F50A54DE9A844C8326AF0739D917922A9CE04D42AD66017E"
+          },
+          {
+            "amount": "1000000",
+            "denom": "ibc/16065EE5282C5217685C8F084FC44864C25C706AC37356B0D62811D50B96920F"
+          },
+          {
+            "amount": "1000000",
+            "denom": "ibc/84FBEC4BBB48BD7CC534ED7518F339CCF6C45529DC00C7BFB8605C9EE7D68AFC"
+          }
+        ],
+        "deactivation_time": "1987200s"
       },
       "next_operator_id": 1,
       "operators": [],
@@ -1110,7 +1123,12 @@
     "restaking": {
       "params": {
         "unbonding_time": "259200s",
-        "allowed_denoms": []
+        "allowed_denoms": [
+          "ibc/9ACD338BC3B488E0F50A54DE9A844C8326AF0739D917922A9CE04D42AD66017E",
+          "ibc/16065EE5282C5217685C8F084FC44864C25C706AC37356B0D62811D50B96920F",
+          "ibc/84FBEC4BBB48BD7CC534ED7518F339CCF6C45529DC00C7BFB8605C9EE7D68AFC",
+          "locked/ibc/F1183DB3D428313A6FD329DF18219F9D6B83257D07D292EA9EC1D877E89EC2B0"
+        ]
       },
       "operators_joined_services": [],
       "services_allowed_operators": [],
@@ -1121,7 +1139,20 @@
     },
     "rewards": {
       "params": {
-        "rewards_plan_creation_fee": []
+        "rewards_plan_creation_fee": [
+          {
+            "amount": "1000000",
+            "denom": "ibc/9ACD338BC3B488E0F50A54DE9A844C8326AF0739D917922A9CE04D42AD66017E"
+          },
+          {
+            "amount": "1000000",
+            "denom": "ibc/16065EE5282C5217685C8F084FC44864C25C706AC37356B0D62811D50B96920F"
+          },
+          {
+            "amount": "1000000",
+            "denom": "ibc/84FBEC4BBB48BD7CC534ED7518F339CCF6C45529DC00C7BFB8605C9EE7D68AFC"
+          }
+        ]
       },
       "next_rewards_plan_id": "1",
       "rewards_plans": [],
@@ -1150,7 +1181,20 @@
     },
     "services": {
       "params": {
-        "service_registration_fee": []
+        "service_registration_fee": [
+          {
+            "amount": "1000000",
+            "denom": "ibc/9ACD338BC3B488E0F50A54DE9A844C8326AF0739D917922A9CE04D42AD66017E"
+          },
+          {
+            "amount": "1000000",
+            "denom": "ibc/16065EE5282C5217685C8F084FC44864C25C706AC37356B0D62811D50B96920F"
+          },
+          {
+            "amount": "1000000",
+            "denom": "ibc/84FBEC4BBB48BD7CC534ED7518F339CCF6C45529DC00C7BFB8605C9EE7D68AFC"
+          }
+        ]
       },
       "services": [],
       "next_service_id": 1,
