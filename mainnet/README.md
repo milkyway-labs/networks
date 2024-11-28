@@ -5,11 +5,11 @@ distributing them.
 
 ## Details
 
-|   Chain ID   |          `milkyway`          |
-|:------------:|:----------------------------:|
-| Launch date  |     2024-12-03T09:00:00Z     |
-| Genesis file | [genesis.json](genesis.json) |
-| Genesis hash |                              |
+|          Chain ID          |                             `milkyway`                             |
+|:--------------------------:|:------------------------------------------------------------------:|
+|        Launch date         |                        2024-12-03T09:00:00Z                        |
+|        Genesis file        |                    [genesis.json](genesis.json)                    |
+| Genesis hash (pre-collect) | `4dff7b3be4ca866a25fef0f59cfb47959104cfd9dda57811f7ae410b4aaeb866` |
 
 ## Endpoints 🎯
 
