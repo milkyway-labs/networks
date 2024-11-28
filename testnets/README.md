@@ -1,4 +1,4 @@
-# ceers-2112 Testnet
+# Ceers-2112 Testnet
 
 Ceers-2112 is the galaxy that most resembles the Milky Way. It is a barred spiral galaxy discovered by the James Webb
 Space Telescope. Ceers-2112 is the most distant galaxy of its kind ever observed, and its discovery challenges theories
@@ -11,7 +11,7 @@ about how galaxies evolve.
 |    Launch Date    |                        2024-11-26T08:15:00Z                        |
 | Milkywayd Version |                            `2.0.0-rc3`                             |
 |   Genesis File    |              [genesis.json](ceers-2112/genesis.json)               |
-|   Genesis Hash    | `d8732e38467b0124ed093895c107116cd1b55f321b1f16c9a0cef3f238907f6b` |
+|   Genesis Hash    | `df3c3551c1bc81997ff3af857a310e063b8de2a1ffee5a3d7b67a08371f276ab` |
 
 ## Endpoints 🎯
 
