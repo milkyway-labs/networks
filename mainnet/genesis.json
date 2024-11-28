@@ -109,6 +109,27 @@
             "end_time": "19880899200"
           },
           "start_time": "16725225600"
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "milk18tqnya2qgu0rgk3ypngs0fr28fd03tc3vwl4a3",
+              "pub_key": null,
+              "account_number": "5",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "umilk",
+                "amount": "1000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "19880899200"
+          },
+          "start_time": "16725225600"
         }
       ]
     },
@@ -123,6 +144,15 @@
       "balances": [
         {
           "address": "milk19mydqk0en6406lzntgv6nvp7jhl4juka79w0g3",
+          "coins": [
+            {
+              "denom": "umilk",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "milk18tqnya2qgu0rgk3ypngs0fr28fd03tc3vwl4a3",
           "coins": [
             {
               "denom": "umilk",
@@ -148,7 +178,7 @@
             },
             {
               "denom": "umilk",
-              "amount": "16000000"
+              "amount": "15000000"
             }
           ]
         },
