@@ -1,0 +1,1207 @@
+{
+  "app_name": "milkywayd",
+  "app_version": "2.0.0",
+  "genesis_time": "2024-12-03T09:00:00Z",
+  "chain_id": "milkyway",
+  "initial_height": 1,
+  "app_hash": null,
+  "app_state": {
+    "07-tendermint": null,
+    "assets": {
+      "assets": []
+    },
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
+      "accounts": [
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "milk108zdtldyt6r98rlg6la6nvwczzxnh2mjajlj4g",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "milk19mydqk0en6406lzntgv6nvp7jhl4juka79w0g3",
+              "pub_key": null,
+              "account_number": "1",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "umilk",
+                "amount": "1000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "19880899200"
+          },
+          "start_time": "16725225600"
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "milk1khwnd5ggd09nprajqcg48jjg30s728gqgf6e6d",
+              "pub_key": null,
+              "account_number": "2",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "umilk",
+                "amount": "1000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "19880899200"
+          },
+          "start_time": "16725225600"
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "milk1fv3nj7uggftvhm4ast0clzrvdvecl4awu2xyfv",
+              "pub_key": null,
+              "account_number": "3",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "umilk",
+                "amount": "1000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "19880899200"
+          },
+          "start_time": "16725225600"
+        },
+        {
+          "@type": "/cosmos.vesting.v1beta1.ContinuousVestingAccount",
+          "base_vesting_account": {
+            "base_account": {
+              "address": "milk13aej9gfn3easvfkrgsr29srqua9kukqg3yk3e2",
+              "pub_key": null,
+              "account_number": "4",
+              "sequence": "0"
+            },
+            "original_vesting": [
+              {
+                "denom": "umilk",
+                "amount": "1000000"
+              }
+            ],
+            "delegated_free": [],
+            "delegated_vesting": [],
+            "end_time": "19880899200"
+          },
+          "start_time": "16725225600"
+        }
+      ]
+    },
+    "authz": {
+      "authorization": []
+    },
+    "bank": {
+      "params": {
+        "send_enabled": [],
+        "default_send_enabled": true
+      },
+      "balances": [
+        {
+          "address": "milk19mydqk0en6406lzntgv6nvp7jhl4juka79w0g3",
+          "coins": [
+            {
+              "denom": "umilk",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "milk1fv3nj7uggftvhm4ast0clzrvdvecl4awu2xyfv",
+          "coins": [
+            {
+              "denom": "umilk",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "milk108zdtldyt6r98rlg6la6nvwczzxnh2mjajlj4g",
+          "coins": [
+            {
+              "denom": "ugas",
+              "amount": "100000000"
+            },
+            {
+              "denom": "umilk",
+              "amount": "16000000"
+            }
+          ]
+        },
+        {
+          "address": "milk13aej9gfn3easvfkrgsr29srqua9kukqg3yk3e2",
+          "coins": [
+            {
+              "denom": "umilk",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "milk1khwnd5ggd09nprajqcg48jjg30s728gqgf6e6d",
+          "coins": [
+            {
+              "denom": "umilk",
+              "amount": "1000000"
+            }
+          ]
+        }
+      ],
+      "supply": [
+        {
+          "denom": "ugas",
+          "amount": "100000000"
+        },
+        {
+          "denom": "umilk",
+          "amount": "20000000"
+        }
+      ],
+      "denom_metadata": [],
+      "send_enabled": []
+    },
+    "capability": {
+      "index": "1",
+      "owners": []
+    },
+    "consensus": null,
+    "crisis": {
+      "constant_fee": {
+        "denom": "umilk",
+        "amount": "1000"
+      }
+    },
+    "distribution": {
+      "params": {
+        "community_tax": "0.020000000000000000",
+        "base_proposer_reward": "0.000000000000000000",
+        "bonus_proposer_reward": "0.000000000000000000",
+        "withdraw_addr_enabled": true
+      },
+      "fee_pool": {
+        "community_pool": []
+      },
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    },
+    "evidence": {
+      "evidence": []
+    },
+    "feegrant": {
+      "allowances": []
+    },
+    "feeibc": {
+      "identified_fees": [],
+      "fee_enabled_channels": [],
+      "registered_payees": [],
+      "registered_counterparty_payees": [],
+      "forward_relayers": []
+    },
+    "feemarket": {
+      "params": {
+        "alpha": "0.000000000000000000",
+        "beta": "1.000000000000000000",
+        "gamma": "0.000000000000000000",
+        "delta": "0.000000000000000000",
+        "min_base_gas_price": "0.000000000000000000",
+        "min_learning_rate": "0.125000000000000000",
+        "max_learning_rate": "0.125000000000000000",
+        "max_block_utilization": "30000000",
+        "window": "1",
+        "fee_denom": "ugas",
+        "enabled": false,
+        "distribute_fees": false
+      },
+      "state": {
+        "base_gas_price": "1.000000000000000000",
+        "learning_rate": "0.125000000000000000",
+        "window": [
+          "0"
+        ],
+        "index": "0"
+      }
+    },
+    "genutil": {
+      "gen_txs": []
+    },
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": [],
+      "votes": [],
+      "proposals": [],
+      "deposit_params": null,
+      "voting_params": null,
+      "tally_params": null,
+      "params": {
+        "min_deposit": [
+          {
+            "denom": "ugas",
+            "amount": "10000000"
+          }
+        ],
+        "max_deposit_period": "172800s",
+        "voting_period": "259200s",
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto_threshold": "0.334000000000000000",
+        "min_initial_deposit_ratio": "0.000000000000000000",
+        "proposal_cancel_ratio": "0.500000000000000000",
+        "proposal_cancel_dest": "",
+        "expedited_voting_period": "86400s",
+        "expedited_threshold": "0.667000000000000000",
+        "expedited_min_deposit": [
+          {
+            "denom": "ugas",
+            "amount": "50000000"
+          }
+        ],
+        "burn_vote_quorum": false,
+        "burn_proposal_deposit_prevote": false,
+        "burn_vote_veto": true,
+        "min_deposit_ratio": "0.010000000000000000"
+      },
+      "constitution": ""
+    },
+    "ibc": {
+      "client_genesis": {
+        "clients": [],
+        "clients_consensus": [],
+        "clients_metadata": [],
+        "params": {
+          "allowed_clients": [
+            "*"
+          ]
+        },
+        "create_localhost": false,
+        "next_client_sequence": "0"
+      },
+      "connection_genesis": {
+        "connections": [],
+        "client_connection_paths": [],
+        "next_connection_sequence": "0",
+        "params": {
+          "max_expected_time_per_block": "30000000000"
+        }
+      },
+      "channel_genesis": {
+        "channels": [],
+        "acknowledgements": [],
+        "commitments": [],
+        "receipts": [],
+        "send_sequences": [],
+        "recv_sequences": [],
+        "ack_sequences": [],
+        "next_channel_sequence": "0",
+        "params": {
+          "upgrade_timeout": {
+            "height": {
+              "revision_number": "0",
+              "revision_height": "0"
+            },
+            "timestamp": "600000000000"
+          }
+        }
+      }
+    },
+    "liquidvesting": {
+      "params": {
+        "insurance_percentage": "0.000000000000000001",
+        "burners": [
+          "milk1t08mx78mvffdpqmd33gzslghra22ccfftc8cjq"
+        ],
+        "minters": [
+          "milk1t08mx78mvffdpqmd33gzslghra22ccfftc8cjq"
+        ],
+        "trusted_delegates": [
+          "milk1t08mx78mvffdpqmd33gzslghra22ccfftc8cjq"
+        ],
+        "allowed_channels": [
+          "channel-1"
+        ]
+      },
+      "burn_coins": [],
+      "user_insurance_funds": []
+    },
+    "marketmap": {
+      "market_map": {
+        "markets": {}
+      },
+      "last_updated": "0",
+      "params": {
+        "market_authorities": [
+          "milk10d07y265gmmuvt4z0w9aw880jnsr700j534m7p"
+        ],
+        "admin": "milk10d07y265gmmuvt4z0w9aw880jnsr700j534m7p"
+      }
+    },
+    "mint": {
+      "minter": {
+        "inflation": "0.00000000000000000",
+        "annual_provisions": "0.000000000000000000"
+      },
+      "params": {
+        "mint_denom": "umilk",
+        "inflation_rate_change": "0.100000000000000000",
+        "inflation_max": "0.100000000000000000",
+        "inflation_min": "0.030000000000000000",
+        "goal_bonded": "0.670000000000000000",
+        "blocks_per_year": "6311520"
+      }
+    },
+    "operators": {
+      "params": {
+        "operator_registration_fee": [],
+        "deactivation_time": "259200s"
+      },
+      "next_operator_id": 1,
+      "operators": [],
+      "unbonding_operators": [],
+      "operators_params": []
+    },
+    "oracle": {
+      "currency_pair_genesis": [
+        {
+          "currency_pair": {
+            "Base": "ASTR",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "0"
+        },
+        {
+          "currency_pair": {
+            "Base": "BLUR",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "1"
+        },
+        {
+          "currency_pair": {
+            "Base": "ETC",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "2"
+        },
+        {
+          "currency_pair": {
+            "Base": "ALGO",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "3"
+        },
+        {
+          "currency_pair": {
+            "Base": "ARKM",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "4"
+        },
+        {
+          "currency_pair": {
+            "Base": "IMX",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "5"
+        },
+        {
+          "currency_pair": {
+            "Base": "BCH",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "6"
+        },
+        {
+          "currency_pair": {
+            "Base": "FET",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "7"
+        },
+        {
+          "currency_pair": {
+            "Base": "ORDI",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "8"
+        },
+        {
+          "currency_pair": {
+            "Base": "XLM",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "9"
+        },
+        {
+          "currency_pair": {
+            "Base": "WOO",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "10"
+        },
+        {
+          "currency_pair": {
+            "Base": "AEVO",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "11"
+        },
+        {
+          "currency_pair": {
+            "Base": "APT",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "12"
+        },
+        {
+          "currency_pair": {
+            "Base": "HBAR",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "13"
+        },
+        {
+          "currency_pair": {
+            "Base": "STX",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "14"
+        },
+        {
+          "currency_pair": {
+            "Base": "UNI",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "15"
+        },
+        {
+          "currency_pair": {
+            "Base": "USDT",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "16"
+        },
+        {
+          "currency_pair": {
+            "Base": "BNB",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "17"
+        },
+        {
+          "currency_pair": {
+            "Base": "DOGE",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "18"
+        },
+        {
+          "currency_pair": {
+            "Base": "DYM",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "19"
+        },
+        {
+          "currency_pair": {
+            "Base": "INJ",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "20"
+        },
+        {
+          "currency_pair": {
+            "Base": "MKR",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "21"
+        },
+        {
+          "currency_pair": {
+            "Base": "ADA",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "22"
+        },
+        {
+          "currency_pair": {
+            "Base": "APE",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "23"
+        },
+        {
+          "currency_pair": {
+            "Base": "AXL",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "24"
+        },
+        {
+          "currency_pair": {
+            "Base": "BTC",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "25"
+        },
+        {
+          "currency_pair": {
+            "Base": "PYTH",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "26"
+        },
+        {
+          "currency_pair": {
+            "Base": "JUP",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "27"
+        },
+        {
+          "currency_pair": {
+            "Base": "LDO",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "28"
+        },
+        {
+          "currency_pair": {
+            "Base": "LINK",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "29"
+        },
+        {
+          "currency_pair": {
+            "Base": "RUNE",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "30"
+        },
+        {
+          "currency_pair": {
+            "Base": "SNX",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "31"
+        },
+        {
+          "currency_pair": {
+            "Base": "SEI",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "32"
+        },
+        {
+          "currency_pair": {
+            "Base": "TIA",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "33"
+        },
+        {
+          "currency_pair": {
+            "Base": "BONK",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "34"
+        },
+        {
+          "currency_pair": {
+            "Base": "ETH",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "35"
+        },
+        {
+          "currency_pair": {
+            "Base": "GRT",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "36"
+        },
+        {
+          "currency_pair": {
+            "Base": "MANA",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "37"
+        },
+        {
+          "currency_pair": {
+            "Base": "NTRN",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "38"
+        },
+        {
+          "currency_pair": {
+            "Base": "PEPE",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "39"
+        },
+        {
+          "currency_pair": {
+            "Base": "WLD",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "40"
+        },
+        {
+          "currency_pair": {
+            "Base": "ARB",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "41"
+        },
+        {
+          "currency_pair": {
+            "Base": "JTO",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "42"
+        },
+        {
+          "currency_pair": {
+            "Base": "SOL",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "43"
+        },
+        {
+          "currency_pair": {
+            "Base": "XRP",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "44"
+        },
+        {
+          "currency_pair": {
+            "Base": "SHIB",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "45"
+        },
+        {
+          "currency_pair": {
+            "Base": "STRK",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "46"
+        },
+        {
+          "currency_pair": {
+            "Base": "ATOM",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "47"
+        },
+        {
+          "currency_pair": {
+            "Base": "AVAX",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "48"
+        },
+        {
+          "currency_pair": {
+            "Base": "COMP",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "49"
+        },
+        {
+          "currency_pair": {
+            "Base": "DYDX",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "50"
+        },
+        {
+          "currency_pair": {
+            "Base": "NEAR",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "51"
+        },
+        {
+          "currency_pair": {
+            "Base": "CRV",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "52"
+        },
+        {
+          "currency_pair": {
+            "Base": "FIL",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "53"
+        },
+        {
+          "currency_pair": {
+            "Base": "OP",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "54"
+        },
+        {
+          "currency_pair": {
+            "Base": "SUI",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "55"
+        },
+        {
+          "currency_pair": {
+            "Base": "TRX",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "56"
+        },
+        {
+          "currency_pair": {
+            "Base": "AAVE",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "57"
+        },
+        {
+          "currency_pair": {
+            "Base": "ICP",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "58"
+        },
+        {
+          "currency_pair": {
+            "Base": "DOT",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "59"
+        },
+        {
+          "currency_pair": {
+            "Base": "EOS",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "60"
+        },
+        {
+          "currency_pair": {
+            "Base": "LTC",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "61"
+        },
+        {
+          "currency_pair": {
+            "Base": "MATIC",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "62"
+        }
+      ],
+      "next_id": "63"
+    },
+    "packetfowardmiddleware": {
+      "params": {
+        "fee_percentage": "0.000000000000000000"
+      },
+      "in_flight_packets": {}
+    },
+    "params": null,
+    "pools": {
+      "next_pool_id": 1,
+      "pools": []
+    },
+    "provider": {
+      "valset_update_id": "1",
+      "consumer_states": [],
+      "valset_update_id_to_height": [],
+      "params": {
+        "template_client": {
+          "chain_id": "",
+          "trust_level": {
+            "numerator": "1",
+            "denominator": "3"
+          },
+          "trusting_period": "0s",
+          "unbonding_period": "0s",
+          "max_clock_drift": "10s",
+          "frozen_height": {
+            "revision_number": "0",
+            "revision_height": "0"
+          },
+          "latest_height": {
+            "revision_number": "0",
+            "revision_height": "0"
+          },
+          "proof_specs": [
+            {
+              "leaf_spec": {
+                "hash": "SHA256",
+                "prehash_key": "NO_HASH",
+                "prehash_value": "SHA256",
+                "length": "VAR_PROTO",
+                "prefix": "AA=="
+              },
+              "inner_spec": {
+                "child_order": [
+                  0,
+                  1
+                ],
+                "child_size": 33,
+                "min_prefix_length": 4,
+                "max_prefix_length": 12,
+                "empty_child": null,
+                "hash": "SHA256"
+              },
+              "max_depth": 0,
+              "min_depth": 0,
+              "prehash_key_before_comparison": false
+            },
+            {
+              "leaf_spec": {
+                "hash": "SHA256",
+                "prehash_key": "NO_HASH",
+                "prehash_value": "SHA256",
+                "length": "VAR_PROTO",
+                "prefix": "AA=="
+              },
+              "inner_spec": {
+                "child_order": [
+                  0,
+                  1
+                ],
+                "child_size": 32,
+                "min_prefix_length": 1,
+                "max_prefix_length": 1,
+                "empty_child": null,
+                "hash": "SHA256"
+              },
+              "max_depth": 0,
+              "min_depth": 0,
+              "prehash_key_before_comparison": false
+            }
+          ],
+          "upgrade_path": [
+            "upgrade",
+            "upgradedIBCState"
+          ],
+          "allow_update_after_expiry": false,
+          "allow_update_after_misbehaviour": false
+        },
+        "trusting_period_fraction": "0.66",
+        "ccv_timeout_period": "2419200s",
+        "slash_meter_replenish_period": "3600s",
+        "slash_meter_replenish_fraction": "0.05",
+        "consumer_reward_denom_registration_fee": {
+          "denom": "umilk",
+          "amount": "10000000"
+        },
+        "blocks_per_epoch": "600",
+        "number_of_epochs_to_start_receiving_rewards": "24",
+        "max_provider_consensus_validators": "180"
+      },
+      "validator_consumer_pubkeys": [],
+      "validators_by_consumer_addr": [],
+      "consumer_addrs_to_prune_v2": []
+    },
+    "ratelimit": {
+      "params": {},
+      "rate_limits": [],
+      "whitelisted_address_pairs": [],
+      "blacklisted_denoms": [],
+      "pending_send_packet_sequence_numbers": [],
+      "hour_epoch": {
+        "epoch_number": "0",
+        "duration": "3600s",
+        "epoch_start_time": "0001-01-01T00:00:00Z",
+        "epoch_start_height": "0"
+      }
+    },
+    "restaking": {
+      "params": {
+        "unbonding_time": "259200s",
+        "allowed_denoms": []
+      },
+      "operators_joined_services": [],
+      "services_allowed_operators": [],
+      "services_securing_pools": [],
+      "delegations": [],
+      "unbonding_delegations": [],
+      "users_preferences": []
+    },
+    "rewards": {
+      "params": {
+        "rewards_plan_creation_fee": []
+      },
+      "next_rewards_plan_id": "1",
+      "rewards_plans": [],
+      "last_rewards_allocation_time": null,
+      "delegator_withdraw_infos": [],
+      "pools_records": {
+        "outstanding_rewards": [],
+        "historical_rewards": [],
+        "current_rewards": [],
+        "delegator_starting_infos": []
+      },
+      "operators_records": {
+        "outstanding_rewards": [],
+        "historical_rewards": [],
+        "current_rewards": [],
+        "delegator_starting_infos": []
+      },
+      "services_records": {
+        "outstanding_rewards": [],
+        "historical_rewards": [],
+        "current_rewards": [],
+        "delegator_starting_infos": []
+      },
+      "operator_accumulated_commissions": [],
+      "pool_service_total_delegator_shares": []
+    },
+    "services": {
+      "params": {
+        "service_registration_fee": []
+      },
+      "services": [],
+      "next_service_id": 1,
+      "services_params": []
+    },
+    "slashing": {
+      "params": {
+        "signed_blocks_window": "100",
+        "min_signed_per_window": "0.500000000000000000",
+        "downtime_jail_duration": "60s",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.000000000000000000"
+      },
+      "signing_infos": [],
+      "missed_blocks": []
+    },
+    "staking": {
+      "params": {
+        "unbonding_time": "1814400s",
+        "max_validators": 100,
+        "max_entries": 7,
+        "historical_entries": 10000,
+        "bond_denom": "umilk",
+        "min_commission_rate": "0.000000000000000000"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": [],
+      "validators": [],
+      "delegations": [],
+      "unbonding_delegations": [],
+      "redelegations": [],
+      "exported": false
+    },
+    "transfer": {
+      "port_id": "transfer",
+      "denom_traces": [],
+      "params": {
+        "send_enabled": true,
+        "receive_enabled": true
+      },
+      "total_escrowed": []
+    },
+    "upgrade": {},
+    "vesting": {},
+    "wasm": {
+      "params": {
+        "code_upload_access": {
+          "permission": "AnyOfAddresses",
+          "addresses": [
+            "milk10d07y265gmmuvt4z0w9aw880jnsr700j534m7p"
+          ]
+        },
+        "instantiate_default_permission": "AnyOfAddresses"
+      },
+      "codes": [],
+      "contracts": [],
+      "sequences": []
+    }
+  },
+  "consensus": {
+    "params": {
+      "block": {
+        "max_bytes": "22020096",
+        "max_gas": "-1"
+      },
+      "evidence": {
+        "max_age_num_blocks": "100000",
+        "max_age_duration": "172800000000000",
+        "max_bytes": "1048576"
+      },
+      "validator": {
+        "pub_key_types": [
+          "ed25519"
+        ]
+      },
+      "version": {
+        "app": "0"
+      },
+      "abci": {
+        "vote_extensions_enable_height": "1"
+      }
+    }
+  }
+}
