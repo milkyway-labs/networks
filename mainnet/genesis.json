@@ -413,15 +413,15 @@
         "operator_registration_fee": [
           {
             "amount": "1000000",
-            "denom": "ibc/9ACD338BC3B488E0F50A54DE9A844C8326AF0739D917922A9CE04D42AD66017E"
-          },
-          {
-            "amount": "1000000",
             "denom": "ibc/16065EE5282C5217685C8F084FC44864C25C706AC37356B0D62811D50B96920F"
           },
           {
             "amount": "1000000",
             "denom": "ibc/84FBEC4BBB48BD7CC534ED7518F339CCF6C45529DC00C7BFB8605C9EE7D68AFC"
+          },
+          {
+            "amount": "1000000",
+            "denom": "ibc/9ACD338BC3B488E0F50A54DE9A844C8326AF0739D917922A9CE04D42AD66017E"
           }
         ],
         "deactivation_time": "1987200s"
@@ -1142,15 +1142,15 @@
         "rewards_plan_creation_fee": [
           {
             "amount": "1000000",
-            "denom": "ibc/9ACD338BC3B488E0F50A54DE9A844C8326AF0739D917922A9CE04D42AD66017E"
-          },
-          {
-            "amount": "1000000",
             "denom": "ibc/16065EE5282C5217685C8F084FC44864C25C706AC37356B0D62811D50B96920F"
           },
           {
             "amount": "1000000",
             "denom": "ibc/84FBEC4BBB48BD7CC534ED7518F339CCF6C45529DC00C7BFB8605C9EE7D68AFC"
+          },
+          {
+            "amount": "1000000",
+            "denom": "ibc/9ACD338BC3B488E0F50A54DE9A844C8326AF0739D917922A9CE04D42AD66017E"
           }
         ]
       },
@@ -1184,15 +1184,15 @@
         "service_registration_fee": [
           {
             "amount": "1000000",
-            "denom": "ibc/9ACD338BC3B488E0F50A54DE9A844C8326AF0739D917922A9CE04D42AD66017E"
-          },
-          {
-            "amount": "1000000",
             "denom": "ibc/16065EE5282C5217685C8F084FC44864C25C706AC37356B0D62811D50B96920F"
           },
           {
             "amount": "1000000",
             "denom": "ibc/84FBEC4BBB48BD7CC534ED7518F339CCF6C45529DC00C7BFB8605C9EE7D68AFC"
+          },
+          {
+            "amount": "1000000",
+            "denom": "ibc/9ACD338BC3B488E0F50A54DE9A844C8326AF0739D917922A9CE04D42AD66017E"
           }
         ]
       },

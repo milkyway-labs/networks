@@ -9,7 +9,7 @@ distributing them.
 |:--------------------------:|:------------------------------------------------------------------:|
 |        Launch date         |                        2024-12-03T09:00:00Z                        |
 |        Genesis file        |                    [genesis.json](genesis.json)                    |
-| Genesis hash (pre-collect) | `4dff7b3be4ca866a25fef0f59cfb47959104cfd9dda57811f7ae410b4aaeb866` |
+| Genesis hash (pre-collect) | `dd083a4d2630e1ffeb5532f7bf277590f4961ca0c1a1fe3803916cabbdeaf2f8` |
 
 ## Endpoints 🎯
 
