@@ -5692,576 +5692,578 @@
       "unbonding_operators": [],
       "operators_params": []
     },
-    "currency_pair_genesis": [
-      {
-        "currency_pair": {
-          "Base": "AAVE",
-          "Quote": "USD"
+    "oracle": {
+      "currency_pair_genesis": [
+        {
+          "currency_pair": {
+            "Base": "AAVE",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "0"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "0"
-      },
-      {
-        "currency_pair": {
-          "Base": "ADA",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "ADA",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "1"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "1"
-      },
-      {
-        "currency_pair": {
-          "Base": "AEVO",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "AEVO",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "2"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "2"
-      },
-      {
-        "currency_pair": {
-          "Base": "ALGO",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "ALGO",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "3"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "3"
-      },
-      {
-        "currency_pair": {
-          "Base": "APE",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "APE",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "4"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "4"
-      },
-      {
-        "currency_pair": {
-          "Base": "APT",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "APT",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "5"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "5"
-      },
-      {
-        "currency_pair": {
-          "Base": "ARB",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "ARB",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "6"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "6"
-      },
-      {
-        "currency_pair": {
-          "Base": "ARKM",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "ARKM",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "7"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "7"
-      },
-      {
-        "currency_pair": {
-          "Base": "ASTR",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "ASTR",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "8"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "8"
-      },
-      {
-        "currency_pair": {
-          "Base": "ATOM",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "ATOM",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "9"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "9"
-      },
-      {
-        "currency_pair": {
-          "Base": "AVAX",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "AVAX",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "10"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "10"
-      },
-      {
-        "currency_pair": {
-          "Base": "AXL",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "AXL",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "11"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "11"
-      },
-      {
-        "currency_pair": {
-          "Base": "BCH",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "BCH",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "12"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "12"
-      },
-      {
-        "currency_pair": {
-          "Base": "BLUR",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "BLUR",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "13"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "13"
-      },
-      {
-        "currency_pair": {
-          "Base": "BNB",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "BNB",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "14"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "14"
-      },
-      {
-        "currency_pair": {
-          "Base": "BONK",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "BONK",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "15"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "15"
-      },
-      {
-        "currency_pair": {
-          "Base": "BTC",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "BTC",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "16"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "16"
-      },
-      {
-        "currency_pair": {
-          "Base": "COMP",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "COMP",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "17"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "17"
-      },
-      {
-        "currency_pair": {
-          "Base": "CRV",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "CRV",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "18"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "18"
-      },
-      {
-        "currency_pair": {
-          "Base": "DOGE",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "DOGE",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "19"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "19"
-      },
-      {
-        "currency_pair": {
-          "Base": "DOT",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "DOT",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "20"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "20"
-      },
-      {
-        "currency_pair": {
-          "Base": "DYDX",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "DYDX",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "21"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "21"
-      },
-      {
-        "currency_pair": {
-          "Base": "DYM",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "DYM",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "22"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "22"
-      },
-      {
-        "currency_pair": {
-          "Base": "EOS",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "EOS",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "23"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "23"
-      },
-      {
-        "currency_pair": {
-          "Base": "ETC",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "ETC",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "24"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "24"
-      },
-      {
-        "currency_pair": {
-          "Base": "ETH",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "ETH",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "25"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "25"
-      },
-      {
-        "currency_pair": {
-          "Base": "FET",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "FET",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "26"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "26"
-      },
-      {
-        "currency_pair": {
-          "Base": "FIL",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "FIL",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "27"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "27"
-      },
-      {
-        "currency_pair": {
-          "Base": "GRT",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "GRT",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "28"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "28"
-      },
-      {
-        "currency_pair": {
-          "Base": "HBAR",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "HBAR",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "29"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "29"
-      },
-      {
-        "currency_pair": {
-          "Base": "ICP",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "ICP",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "30"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "30"
-      },
-      {
-        "currency_pair": {
-          "Base": "IMX",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "IMX",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "31"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "31"
-      },
-      {
-        "currency_pair": {
-          "Base": "INJ",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "INJ",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "32"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "32"
-      },
-      {
-        "currency_pair": {
-          "Base": "JTO",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "JTO",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "33"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "33"
-      },
-      {
-        "currency_pair": {
-          "Base": "JUP",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "JUP",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "34"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "34"
-      },
-      {
-        "currency_pair": {
-          "Base": "LDO",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "LDO",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "35"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "35"
-      },
-      {
-        "currency_pair": {
-          "Base": "LINK",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "LINK",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "36"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "36"
-      },
-      {
-        "currency_pair": {
-          "Base": "LTC",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "LTC",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "37"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "37"
-      },
-      {
-        "currency_pair": {
-          "Base": "MANA",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "MANA",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "38"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "38"
-      },
-      {
-        "currency_pair": {
-          "Base": "MATIC",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "MATIC",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "39"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "39"
-      },
-      {
-        "currency_pair": {
-          "Base": "MKR",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "MKR",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "40"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "40"
-      },
-      {
-        "currency_pair": {
-          "Base": "NEAR",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "NEAR",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "41"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "41"
-      },
-      {
-        "currency_pair": {
-          "Base": "NTRN",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "NTRN",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "42"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "42"
-      },
-      {
-        "currency_pair": {
-          "Base": "OP",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "OP",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "43"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "43"
-      },
-      {
-        "currency_pair": {
-          "Base": "ORDI",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "ORDI",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "44"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "44"
-      },
-      {
-        "currency_pair": {
-          "Base": "PEPE",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "PEPE",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "45"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "45"
-      },
-      {
-        "currency_pair": {
-          "Base": "PYTH",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "PYTH",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "46"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "46"
-      },
-      {
-        "currency_pair": {
-          "Base": "RUNE",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "RUNE",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "47"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "47"
-      },
-      {
-        "currency_pair": {
-          "Base": "SEI",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "SEI",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "48"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "48"
-      },
-      {
-        "currency_pair": {
-          "Base": "SHIB",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "SHIB",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "49"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "49"
-      },
-      {
-        "currency_pair": {
-          "Base": "SNX",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "SNX",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "50"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "50"
-      },
-      {
-        "currency_pair": {
-          "Base": "SOL",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "SOL",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "51"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "51"
-      },
-      {
-        "currency_pair": {
-          "Base": "STRK",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "STRK",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "52"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "52"
-      },
-      {
-        "currency_pair": {
-          "Base": "STX",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "STX",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "53"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "53"
-      },
-      {
-        "currency_pair": {
-          "Base": "SUI",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "SUI",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "54"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "54"
-      },
-      {
-        "currency_pair": {
-          "Base": "TIA",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "TIA",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "55"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "55"
-      },
-      {
-        "currency_pair": {
-          "Base": "TRX",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "TRX",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "56"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "56"
-      },
-      {
-        "currency_pair": {
-          "Base": "UNI",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "UNI",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "57"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "57"
-      },
-      {
-        "currency_pair": {
-          "Base": "USDT",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "USDT",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "58"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "58"
-      },
-      {
-        "currency_pair": {
-          "Base": "WLD",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "WLD",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "59"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "59"
-      },
-      {
-        "currency_pair": {
-          "Base": "WOO",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "WOO",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "60"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "60"
-      },
-      {
-        "currency_pair": {
-          "Base": "XLM",
-          "Quote": "USD"
+        {
+          "currency_pair": {
+            "Base": "XLM",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "61"
         },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "61"
-      },
-      {
-        "currency_pair": {
-          "Base": "XRP",
-          "Quote": "USD"
-        },
-        "currency_pair_price": null,
-        "nonce": "0",
-        "id": "62"
-      }
-    ],
-    "next_id": "63",
+        {
+          "currency_pair": {
+            "Base": "XRP",
+            "Quote": "USD"
+          },
+          "currency_pair_price": null,
+          "nonce": "0",
+          "id": "62"
+        }
+      ],
+      "next_id": "63"
+    },
     "packetfowardmiddleware": {
       "params": {
         "fee_percentage": "0.000000000000000000"
