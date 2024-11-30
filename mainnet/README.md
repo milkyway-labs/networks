@@ -131,6 +131,36 @@ for _, denom := range denoms {
 }
 ```
 
+### IBC packet forwarding denoms
+
+The following IBC assets have been assumed to be forwarded to the MilkyWay chain through the Osmosis chain:
+
+**TIA**
+Osmosis IBC denom trace:
+
+* Base denom: `utia`
+* Path: `transfer/channel-6994`
+* Computed IBC denom: `ibc/D79E7D83AB399BFFF93433E54FAA480C191248FC556924A2A8351AE2638B3877`
+
+MilkyWay IBC denom trace:
+
+* Base denom: `utia`
+* Path: `transfer/channel-0/transfer/channel-6994`
+* Computed IBC denom: `ibc/6C349F0EB135C5FA99301758F35B87DB88403D690E5E314AB080401FEE4066E5`
+
+**stTIA**  
+Osmosis IBC denom trace:
+
+* Base denom: `stutia`
+* Path: `transfer/channel-326`
+* Computed IBC denom: `ibc/698350B8A61D575025F3ED13E9AC9C0F45C89DEFE92F76D5838F1D3C1A7FF7C9`
+
+MilkyWay IBC denom trace:
+
+* Base denom: `stutia`
+* Path: `transfer/channel-0/transfer/channel-326`
+* Computed IBC denom: `ibc/8D4FC51F696E03711B9B37A5787FB89BD2DDBAF788813478B002D552A12F9157`
+
 ### Accounts
 
 The genesis file will contain the details (or references) of the following accounts:
