@@ -34,7 +34,7 @@ follow [the guide on our website](https://docs.milkyway.zone/modular-restaking/g
 
 ⚠ **This is a POA testnet** ⚠
 
-Since we wanted to mimic the mainnet as closes as possible, we decided to launch the ceers-2112 testnet as a POA
+Since we wanted to mimic the mainnet as close as possible, we decided to launch the ceers-2112 testnet as a POA
 network. This means that the only way you can obtain 1 MILK token that can be self-delegated to join the consensus of
 the chain, is by asking our team. To give it to you, we will need an account address with which we will create a vesting
 account containing such token. Once that is done, you will be able to self-delegate it to the validator you will be
