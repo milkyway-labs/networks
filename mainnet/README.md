@@ -19,6 +19,29 @@ distributing them.
 | Public LCD  | `https://lcd.mainnet.milkyway.zone:443`  |
 | Public gRPC | `https://grpc.mainnet.milkyway.zone:443` |
 
+## Seed nodes 🌱
+
+|     Node      |                               ID                                |
+|:-------------:|:---------------------------------------------------------------:|
+| MilkyWay Seed | `3085637e1bf6a03e871701970c0fb23bfcacbc50@143.198.235.50:26656` |
+
+## Snapshot 📸
+
+```bash
+wget -O snapshot.tar.lz4 https://service.mainnet.milkyway.zone/snapshot
+lz4 -dc snapshot.tar.lz4 | tar -xvf -
+
+# or
+
+curl -o - -L https://service.mainnet.milkyway.zone/snapshot | lz4 -dc - | tar -xvf -
+```
+
+## Addrbook 📒
+
+```bash
+wget -O addrbook.json https://service.mainnet.milkyway.zone/addrbook
+```
+
 ## Join the network 📜
 
 To set up a validator node for this network, please
