@@ -9,7 +9,7 @@ about how galaxies evolve.
 |     Chain ID      |                            `ceers-2112`                            |
 |:-----------------:|:------------------------------------------------------------------:|
 |    Launch Date    |                        2024-11-26T08:15:00Z                        |
-| Milkywayd Version |                            `2.0.0-rc3`                             |
+| Milkywayd Version |                              `v12.0.0`                             |
 |   Genesis File    |              [genesis.json](ceers-2112/genesis.json)               |
 |   Genesis Hash    | `df3c3551c1bc81997ff3af857a310e063b8de2a1ffee5a3d7b67a08371f276ab` |
 
